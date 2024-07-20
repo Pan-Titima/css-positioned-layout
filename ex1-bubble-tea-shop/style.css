@@ -1,5 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: "Kanit";
 }
 
 /* Start coding here */
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.img {
+  position: relative;
+  top: 25%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
+  border: 10px solid white;
+
+}
