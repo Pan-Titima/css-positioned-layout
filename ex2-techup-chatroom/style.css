@@ -1,1 +1,93 @@
 /* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: gray;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.right-text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.right-text-message-box {
+  width: 15vw;
+  border-radius: 30px;
+  margin: 5px 0px;
+  padding: 15px;
+  font-size: 24px;
+  background-color: rgb(7, 190, 7);
+  position: relative;
+}
+
+.right-text-message-delete-box {
+  width: 15vw;
+  border-radius: 30px;
+  margin: 5px 0px;
+  padding: 15px;
+  font-size: 24px;
+  background-color: rgba(128, 128, 128, 0.468);
+  position: relative;
+}
+
+.delete-message-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 3px;
+  right: -7px;
+  text-align: center;
+  background-color: gray;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: white;
+  font-weight: 100;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.message-box-tail {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+  width: 80px;
+  height: 80px;
+  transform: rotate(40deg);
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 rgb(7, 190, 7);
+}
+
+.left-text-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.left-text-message-box {
+  width: 15vw;
+  border-radius: 30px;
+  margin: 5px 0px;
+  padding: 15px;
+  font-size: 24px;
+  background-color: gray;
+  position: relative;
+}
